@@ -26,8 +26,8 @@ const Header = () =>{
                         Setup
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <NavLink className="dropdown-item" to="/test-type">Test Type</NavLink>
-                    <NavLink className="dropdown-item" to="/test">Test</NavLink>
+                    <NavLink className="dropdown-item" to="/home">Test Type</NavLink>
+                    <NavLink className="dropdown-item" to="/test-setup">Test</NavLink>
                     </div>
                 </div>
 
