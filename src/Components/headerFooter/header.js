@@ -26,8 +26,8 @@ const Header = () =>{
                         Setup
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <NavLink className="dropdown-item" to="/">Test Type</NavLink>
-                    <NavLink className="dropdown-item" to="/">Test</NavLink>
+                    <NavLink className="dropdown-item" to="/test-type">Test Type</NavLink>
+                    <NavLink className="dropdown-item" to="/test">Test</NavLink>
                     </div>
                 </div>
 
@@ -36,8 +36,8 @@ const Header = () =>{
                         Test Request
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <NavLink className="dropdown-item" to="/">Entry</NavLink>
-                    <NavLink className="dropdown-item" to="/">Payment</NavLink>
+                    <NavLink className="dropdown-item" to="/entry">Entry</NavLink>
+                    <NavLink className="dropdown-item" to="/payment">Payment</NavLink>
                     </div>
                 </div>
 
@@ -46,9 +46,9 @@ const Header = () =>{
                         Report
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <NavLink className="dropdown-item" to="/">Test Wise</NavLink>
-                    <NavLink className="dropdown-item" to="/">Type Wise</NavLink>
-                    <NavLink className="dropdown-item" to="/">Unpaid Bill</NavLink>
+                    <NavLink className="dropdown-item" to="/test-wise">Test Wise</NavLink>
+                    <NavLink className="dropdown-item" to="/type-wise">Type Wise</NavLink>
+                    <NavLink className="dropdown-item" to="/unpaid-bill">Unpaid Bill</NavLink>
                     </div>
                 </div>
                 <div className="col-auto float-right">
